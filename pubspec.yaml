@@ -1,0 +1,24 @@
+name: blinking_circle
+description: A Flutter package that provides a blinking circle widget.
+version: 0.0.1
+homepage: https://github.com/Abishek-Jr18/BlinkingCricle.git
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.20.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: Blinking_Circle
+        pluginClass: BlinkingCircle
